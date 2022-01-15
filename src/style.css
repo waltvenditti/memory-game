@@ -1,0 +1,49 @@
+* {
+  border: 1px solid black;
+}
+
+header {
+  display: flex;
+}
+
+.headerRight {
+  margin-left: auto;
+}
+
+.headerRight p {
+  text-align: right;
+}
+
+.App {
+  
+}
+
+.Cards {
+  display: flex; 
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card * {
+  border: 1px solid black;
+}
+
+.card {
+  width: 225px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.card p {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+.card img {
+  margin: auto;
+
+}
