@@ -9,7 +9,7 @@ function Header(props) {
       </div>
       <div className="headerRight">
         <p>Current Score: {props.score}</p>
-        <p>High Score: Y</p>
+        <p>High Score: {props.highScore}</p>
       </div>
     </header>
   );
