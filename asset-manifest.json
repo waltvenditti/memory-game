@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/memory-game/static/css/main.edc9fd50.css",
+    "main.js": "/memory-game/static/js/main.c63be9b1.js",
+    "static/media/psilocin.png": "/memory-game/static/media/psilocin.0f626657b45dc4c74473.png",
+    "static/media/dmt.png": "/memory-game/static/media/dmt.30ca504256fe03ce8be6.png",
+    "static/media/lsd.png": "/memory-game/static/media/lsd.27f7ea00de1716bd3609.png",
+    "static/media/morphine.png": "/memory-game/static/media/morphine.b55dd778633b5fd4b9f4.png",
+    "static/media/nicotine.png": "/memory-game/static/media/nicotine.54e9af1cca2543035516.png",
+    "static/media/2cb-fly.png": "/memory-game/static/media/2cb-fly.899e977738e02a72fd89.png",
+    "static/media/heroin.png": "/memory-game/static/media/heroin.e8d26f19e7d53e949b6d.png",
+    "static/media/fentanyl.png": "/memory-game/static/media/fentanyl.7d66f2362f1790f23038.png",
+    "static/media/caffeine.png": "/memory-game/static/media/caffeine.693d9d71e74e1f838886.png",
+    "static/media/cbd.png": "/memory-game/static/media/cbd.5bafa1eff0e7bb2d489f.png",
+    "static/media/mescaline.png": "/memory-game/static/media/mescaline.90c9fb11df3739335e18.png",
+    "static/media/mdma.png": "/memory-game/static/media/mdma.55919fec42b5f0c06385.png",
+    "index.html": "/memory-game/index.html",
+    "main.edc9fd50.css.map": "/memory-game/static/css/main.edc9fd50.css.map",
+    "main.c63be9b1.js.map": "/memory-game/static/js/main.c63be9b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edc9fd50.css",
+    "static/js/main.c63be9b1.js"
+  ]
+}
