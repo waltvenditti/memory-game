@@ -3,18 +3,18 @@ import React, { useEffect, useState } from "react";
 import Card from "./Card";
 import Header from "./Header";
 
-import LSD from "./molecules/lsd.png";
+import Advil from "./molecules/ibuprofen.png";
 import Psil from "./molecules/psilocin.png";
 import DMT from "./molecules/dmt.png";
-import MDMA from "./molecules/mdma.png";
-import Fly from "./molecules/2cb-fly.png";
+import Sere from "./molecules/seretonin.png";
+import Tylenol from "./molecules/acetaminophen.png";
 import Mesc from "./molecules/mescaline.png";
 import Caff from "./molecules/caffeine.png";
-import CBD from "./molecules/cbd.png";
-import Fent from "./molecules/fentanyl.png";
-import Dia from "./molecules/heroin.png";
-import Morph from "./molecules/morphine.png";
-import Nico from "./molecules/nicotine.png";
+import Aspirin from "./molecules/aspirin.png";
+import Dopa from "./molecules/dopamine.png";
+import Trypt from "./molecules/tryptophan.png";
+import Mela from "./molecules/melatonin.png";
+import Theo from "./molecules/theobromine.png";
 
 function App() {
   let [ints, setInts] = useState([0,1,2,3,4,5,6,7,8,9,10,11]);
@@ -22,8 +22,8 @@ function App() {
   const [score, setScore] = useState(0);
   const [chems, setChems] = useState([
     {
-      name: "LSD",
-      structure: LSD,
+      name: "Ibuprofen",
+      structure: Advil,
       clicked: false
     },
     {
@@ -37,13 +37,13 @@ function App() {
       clicked: false
     },
     {
-      name: "MDMA",
-      structure: MDMA,
+      name: "Seretonin",
+      structure: Sere,
       clicked: false
     }, 
     {
-      name: "2CB-Fly",
-      structure: Fly,
+      name: "Acetaminophen",
+      structure: Tylenol,
       clicked: false
     }, 
     {
@@ -57,28 +57,28 @@ function App() {
       clicked: false
     }, 
     {
-      name: "CBD (Cannabidiol)",
-      structure: CBD,
+      name: "Aspirin",
+      structure: Aspirin,
       clicked: false
     }, 
     {
-      name: "Fentanyl (Grey Death)",
-      structure: Fent,
+      name: "Dopamine",
+      structure: Dopa,
       clicked: false
     }, 
     {
-      name: "Diamoprhine (Heroin)",
-      structure: Dia,
+      name: "Tryptophan",
+      structure: Trypt,
       clicked: false
     }, 
     {
-      name: "Morphine",
-      structure: Morph,
+      name: "Melatonin",
+      structure: Mela,
       clicked: false
     }, 
     {
-      name: "Nicotine",
-      structure: Nico,
+      name: "Theobromine",
+      structure: Theo,
       clicked: false,
     }, 
   ])
